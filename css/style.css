@@ -1,0 +1,65 @@
+body,a,div,span,h1,h2,table{margin: 0px;padding: 0px;}
+body{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #f9f9f9;}
+h1{background-color: #000000;color: #FFFFFF;display: inline-display; border-top-left-radius: 30px;border-top-right-radius: 30px;padding: 1em 0 0.5em 1em;}
+h1 span{font-size: 1.5em;}
+table{width: 1000px;height:450px;padding: 20px 0 20px 0px;border: 1px solid black;}
+td{vertical-align: top;}
+#effect{
+padding: 10px 0px 20px 30px;
+}
+#code_generate{
+padding: 20px 20px 20px 10px;width:300px;
+}
+
+#box{
+	background-color: #FFFFFF;
+	border: 3px solid #000000;
+	font-size: 18px;
+	font-family:'Microsoft YaHei';
+	width: 160px;
+	padding: 10px 0 10px 10px;}
+
+#select{
+	margin-bottom: 10px;}
+#select #text{
+	color: black;}
+#select #hilited{
+	padding: 1px 2px 1px 2px;
+	border-radius: 5px;
+	background-color: #dddddd;
+	color: black;}
+#word{margin-right: 4px;}
+
+#display div{
+	margin: 4px 0 4px 0px;}
+#display div:last-child{
+	margin-bottom:0px;}
+#label{
+	margin-right: 5px;}
+
+#n1{
+	border-radius: 5px;
+	width: 125px;
+	padding:1px 2px 1px 2px;
+	background-color: black;
+	color: white;}
+[id=*"n"]{padding-left:2px;}
+
+#code{
+	padding-left: 4px;}
+
+input[name="number"]{width: 150px;}
+input{ margin-left: 10px;border-style: none;}
+input[name="schema"], input[name="name"], input[name="author"]{border-bottom: 1px solid black;background-color: #f9f9f9;}
+#bgr{background-color: #BBDD77;}
+
+#color_setting input, #rgb, #bgr, #background{
+	width: 56px;text-align: center;}
+#modEx span{display: inline-block;width: 3em;}
+
+#schema{display: inline;}
+
+.em{display: inline-block;width: 1em;}
